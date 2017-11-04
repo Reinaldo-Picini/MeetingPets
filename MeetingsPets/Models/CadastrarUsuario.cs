@@ -5,7 +5,7 @@ using System.Web;
 
 namespace MeetingsPets.Models
 {
-    public class Usuario
+    public class CadastrarUsuario
     {
         public int IdUsuario { get; set; }
         public string Nome { get; set; }
