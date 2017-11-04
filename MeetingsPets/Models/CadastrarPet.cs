@@ -7,6 +7,7 @@ namespace MeetingsPets.Models
 {
     public class CadastrarPet
     {
+        public int PetId { get; set; }
         public string Fotos { get; set; }
         public string Nome { get; set; }
         public string Raca { get; set; }
