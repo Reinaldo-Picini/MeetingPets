@@ -20,7 +20,8 @@ namespace MeetingsPets.Models
         public string  Pais { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
-        public string ConfSenha { get; set; }       
+        public string ConfSenha { get; set; }
+        public int teste { get; set; }
 
     }
 }
