@@ -6,17 +6,13 @@ using System.Web.Mvc;
 
 namespace MeetingsPets.Controllers
 {
-    public class InicialController : Controller
+    public class CadastroPetController : Controller
     {
-        // GET: Inicial
-        public ActionResult Principal()
+        // GET: CadastroPet
+        public ActionResult CadPet()
         {
+            ViewBag.Message = "cadastro Pets";
             return View();
         }
-        public ActionResult Index()
-        {
-            return View();
-        }
-
     }
 }

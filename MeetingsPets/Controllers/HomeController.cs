@@ -6,17 +6,11 @@ using System.Web.Mvc;
 
 namespace MeetingsPets.Controllers
 {
-    public class InicialController : Controller
+    public class HomeController : Controller
     {
-        // GET: Inicial
-        public ActionResult Principal()
-        {
-            return View();
-        }
         public ActionResult Index()
         {
             return View();
         }
-
     }
 }
