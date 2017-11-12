@@ -11,7 +11,7 @@ namespace MeetingsPets.Controllers
         // GET: Usuario
         public ActionResult CadUsuario()
         {
-            ViewBag.Message = "Cadastro de Usuarios";
+            ViewBag.Message = "Cadastro de Usuários";
             return View();
 
         }
