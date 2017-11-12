@@ -7,6 +7,5 @@ namespace MeetingsPets.Models
 {
     public class Logar:CadastrarUsuario
     {
-
     }
 }
