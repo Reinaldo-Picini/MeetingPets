@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace MeetingsPets.Models
+namespace Mtp.Models
 {
-    public class Logar:CadastrarUsuario
+    public class Pet
     {
 
     }
