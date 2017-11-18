@@ -5,7 +5,7 @@ using System.Web;
 
 namespace MeetingsPets.Models
 {
-    public class Logar:CadastrarUsuario
+    public class Logar:Usuario
     {
     }
 }
