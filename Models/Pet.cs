@@ -5,7 +5,7 @@ using System.Web;
 
 namespace MeetingsPets.Models
 {
-    public class CadastrarPet
+    public class Pet
     {
         public int PetId { get; set; }
         public string Fotos { get; set; }
