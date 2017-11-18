@@ -6,12 +6,12 @@ using System.Web.Mvc;
 
 namespace MeetingsPets.Controllers
 {
-    public class PrincipalController : Controller
+    public class InicialController : Controller
     {
         // GET: Inicial
         public ActionResult Principal()
         {
-            ViewBag.Message = "MeetingsPets";
+            ViewBag.Message = "Pagina Inicial";
             return View();
         }
 
