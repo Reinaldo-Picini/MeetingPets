@@ -11,10 +11,7 @@ namespace MeetingsPets.Controllers
         // GET: Inicial
         public ActionResult Principal()
         {
-            return View();
-        }
-        public ActionResult Index()
-        {
+            ViewBag.Message = "Pagina Inicial";
             return View();
         }
 

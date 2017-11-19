@@ -9,7 +9,7 @@ namespace MeetingsPets.Reposit
     public class BancoListas
     {
         public static IList<Logar> Alunos = new List<Logar>();
-        public static IList<CadastrarPet> Pets = new List<CadastrarPet>();
-        public static IList<CadastrarUsuario> Usuarios = new List<CadastrarUsuario>();
+        public static IList<Pet> Pets = new List<Pet>();
+        public static IList<Usuario> Usuarios = new List<Usuario>();
     }
 }
