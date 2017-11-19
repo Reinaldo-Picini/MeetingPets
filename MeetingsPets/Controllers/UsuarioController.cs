@@ -13,7 +13,11 @@ namespace MeetingsPets.Controllers
         {
             ViewBag.Message = "Cadastro de Usuários";
             return View();
+        }
 
+        public ActionResult Logar()
+        {
+            return View();
         }
     }
 }
